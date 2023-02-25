@@ -1,0 +1,156 @@
+body{
+    font-family: 'Quicksand', sans-serif; 
+    background-color: white;
+    color: #283d3b;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-bottom: 1rem;
+}
+.top-info{
+    height: 1.8rem;
+    background-color: rgb(100,185,228);
+    text-align: right;
+    padding: 6px;
+    color: white;
+}
+.top-info-elements{
+    position: relative;
+    right: 2rem;
+}
+.top-info-elements a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+}
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    z-index: 1;
+    border-radius: 4px;
+}
+nav{
+    margin: auto;
+}
+nav ul{
+    padding: 0.4rem; 
+}
+nav li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 0 1rem 0 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+nav a:hover{
+    border-bottom: 3px solid rgb(100,185,228);
+    border-radius: 2px;
+}
+.active{
+    border-bottom: 3px solid rgb(100,185,228);
+}
+.container{
+    background-image: url('WP_20170824_18_11_57_Pro.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+}
+.overlay-text{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 4rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: grey 0.8px 0.8px 0.4px;
+}
+.dental-container{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.dental-container >li{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+.dental-container > li > a{
+    display: inline-block;
+    text-align: center;
+    margin: 1.8rem;
+    padding: 0.1rem;
+    background-color: white;
+    border-bottom: 5px solid white;
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.dental-column > img{
+    border-radius: 4px;
+    opacity: 0.9; 
+}
+.dental-column img:hover{
+    opacity: 1;
+}
+.dental-container > li > a:hover{
+    border-bottom: 5px solid rgb(100,185,228);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+.footer-column-left{
+    margin: 1rem 1rem 1rem 5rem;
+    padding: 3rem;
+    font-weight: normal;
+}
+.footer-column-right{
+   display: inline-block;
+   margin: auto;
+   font-size: 2rem;
+}
+.web-info{
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-form{
+    margin: 1rem 1rem 1rem 5rem;
+    padding: 1rem;
+}
+.contact-info{
+    display: block;
+}
+.dental-sub-content{
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid rgb(168, 167, 167);
+    border-bottom: 1px solid rgb(168, 167, 167);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dental-sub-content img{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 300px;
+    border-radius: 4px;
+}
+#active-column{
+    border-bottom: 5px solid rgb(100,185,228); 
+}
